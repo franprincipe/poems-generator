@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="src/index.js"></script>
    <link rel="stylesheet" href="src/style.css">
+   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
     <h1>AI Poem Generator</h1>
 </header>
 <main>
-    <form>
+    <form id="poem-form-generator">
         <input 
         class="instrcutions"
         type="text" 
@@ -27,17 +27,7 @@
         type="submit"
         />
     </form>
-    <div class="poem">
-        The Poem will go here!
-        <br />
-Do you want to be always happy?
-Then give up fighting
-For negativity
-And learn the beautiful art
-Of self-encouragement.
-
-Sri Chinmoy
-    </div>
+    <div class="poem" id="poem"></div>
 </main>
 <footer>This project was coded by Francisca Principe and it is open-sourced on
     <a 
@@ -49,4 +39,5 @@ Sri Chinmoy
     target="_blank">Netlify</a>.
 </footer>
     </div>
+    <script src="src/index.js"></script>
 </html
