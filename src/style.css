@@ -67,3 +67,8 @@ footer a {
     border-left: 3px solid rgba(39, 33, 66, 0.5);
     box-shadow: 0px 4px 30px 0px rgba(65, 50, 100, 0.03);
  }
+
+ .poem strong {
+    color:#626169;
+    font-style: italic;
+ }
